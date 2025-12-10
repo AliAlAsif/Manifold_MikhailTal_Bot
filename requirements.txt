@@ -1,0 +1,29 @@
+# Core
+requests
+python-dotenv
+
+# Async (if you plan to stream orderbook / faster polling later)
+aiohttp
+
+# Data & ML
+pandas
+numpy
+scikit-learn
+joblib                 # model saving/loading
+xgboost                # best for tabular forecasting
+lightgbm               # optional, but strong alternative model
+catboost               # optional, handles categorical features well
+
+# AI Signal (LLM)
+openai                 # GPT‑4o‑mini / OpenAI API inference
+
+# Visualization & Reporting
+matplotlib
+seaborn
+plotly
+
+# Optional performance boost
+tqdm                   # progress bars for training + data collection
+
+# Only needed if you later convert to async bot
+# websockets
